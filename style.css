@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Nav-bar{
+    width: 20%;
+    height: 100vh;
+    background-color: #F44336;
+    position: fixed;
+}
+
+.Nav-bar h3{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 70px 0 70px 25px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+nav a{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0 10px 25px;
+}
+
+nav a:hover{
+    color: #F44336;
+    background-color: white;
+}
+
+.content{
+    width: 80%; 
+    margin-left: 20%;
+    box-sizing: border-box;
+
+}
+
+header, section{
+    width: 90%;
+    margin: auto;
+}
+header h1{
+    font-family: 'Poppins', sans-serif;
+    padding: 50px 0px ;
+    font-size: 56px;
+    
+}
+
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #F44336;
+    padding: 30px 0px 5px 0;
+}
+
+span {
+    display: block;
+    width: 50px;
+    height: 10px;
+    background-color:#F44336;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+p{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+
+.img-grid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-grid img {
+    width: 49%;
+    margin: 4px;
+}
+
+.img-grid img:hover {
+    opacity : .3;
+}
+
+.cardBox {
+    width: 100%;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    width: 32%;
+    background-color: #F1F0F0;
+    margin: 15px 0 ;    
+}
+
+.card img{
+    width: 100%;  
+}
+.card h4{
+    font-family: 'Poppins', sans-serif;
+    font-size : 20px;
+    margin: 20px 10px;
+}
+
+.card h5{
+    font-family: 'Tajawal', sans-serif;
+    font-size : 18px;
+    margin: 20px 10px;
+}
+
+.card p{
+    font-family: 'Tajawal', sans-serif;
+    font-size : 16px;
+    margin: 20px 10px;
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.row{
+    width: 49%;
+    text-align: center;
+}
+.table .row .basic{
+    font-family: 'Poppins', sans-serif;
+    font-size : 20px;
+    background-color: #5F6366;
+    color: white;
+    padding: 20px;
+}
+
+.table .row .pro{
+    font-family: 'Poppins', sans-serif;
+    font-size : 20px;
+    background-color:#F44336;
+    color: white;
+    padding: 20px;
+}
+
+.table .row li{
+    font-family: 'Tajawal', sans-serif;
+    font-size : 16px;
+    padding: 10px 0;
+    background-color: #F7F8F8;
+    color: #5F6366;
+    border-bottom: 1px solid gray;
+    list-style-type: none;
+}
+
+.table .row .price{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: black;
+    border: none;
+    padding-bottom: 0;
+}
+
+.table .row button{
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color:#F44336;
+    color: white;
+    border: none;
+}
+
+.table .row button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+form{
+    width: 100%;
+    margin: 40px 0;
+}
+label,input,button{
+    width: 100%;
+    padding: 12px 0;
+    margin: 12px 0;
+    font-family: 'Tajawal', sans-serif;
+     
+}
+form button{
+    background-color:#F44336;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    border: none;
+}
+form button:hover{
+    background-color:#a7251bfc;
+}
+  
+footer{
+    width: 100%;
+    height: 60px;   
+    background-color: #F7F8F8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rs{
+    width: 20%;
+    height: 50px;
+    margin: 15px 0;
+}
+
+footer .rs img{
+    width: 30px;
+    height: 30px; 
+    margin-right: 15px; 
+    fill: white
+}
+footer .copy{
+    font-family: 'Tajawal', sans-serif;
+    margin: 25px 0;
+}
+
+
